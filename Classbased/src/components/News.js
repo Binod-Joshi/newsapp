@@ -1,4 +1,4 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { Component } from "react";
 import NewsItems from "./NewsItems";
 
 export class News extends Component {
@@ -58,7 +58,7 @@ export class News extends Component {
   render() {
     return (
       <div className='container my-3'>
-        <h2 className="text-center" style={{margin:`30px 0`}}>NewsMonkey-{this.capitalizeFirst(this.props.category)} Top Headlines</h2>
+        <h2 className="text-center" style={{margin:` 60px 0`}}>NewsMonkey-{this.capitalizeFirst(this.props.category)} Top Headlines</h2>
         <div className="row">
           {this.state.articles.map((element)=>{
           return <div className="col-md-4" key={element.url}>

@@ -4,7 +4,7 @@ import {
 const navBar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-light bg-light">
+      <nav className="navbar fixed-top navbar-expand-light bg-light">
         <div className="container-fluid">
           <Link className= "navbar-brand" to="/">
             NewsMonkey
